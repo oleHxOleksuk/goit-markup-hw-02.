@@ -1,6 +1,5 @@
-.body{
+body{
     margin: 0;
-    color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
 }
 .logo{
@@ -34,6 +33,10 @@
 .mail,.phone{
     text-decoration: none;
     color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 .mail:hover{
     color: #2196F3;
@@ -48,18 +51,14 @@
     background-color: #2F303A;
     width: 1600px;
     height: 600px;
-    text-align: center;
+
 }
 .txt{
-    padding-top: 200px;
-    padding-left: 452px;
-    width: 696px;
     letter-spacing: 0.06em;
     line-height: 1.4;
     font-weight: 900;
     font-size: 44px;
     color: #ffff;
-    text-align: center;
 }
 .but{
     border-radius: 4px;
@@ -68,7 +67,6 @@
     text-align: center;
     color: #ffff;
     background-color: #2196F3;
-    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.8;
     letter-spacing: 0.06em;
@@ -80,14 +78,12 @@
     list-style-type: none;
 }
 .h-list{
-    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.03em;
     font-weight: 700;
 }
 .txt-list{
-    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: #757575;
@@ -95,34 +91,33 @@
     letter-spacing: 0.03em;
 }
 .h-work{
-    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
     letter-spacing: 0.03em;
+    color: #212121;
 }
 .working-list{
     list-style-type: none;
 }
 .h-team{
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 36px;
     line-height: 1.2;
     letter-spacing: 0.03em;
+    color: #212121;
 }
 .team-list{
     list-style-type: none;
 }
 .h-name{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 36px;
+    font-weight: 500;
+    font-size: 16px;
     line-height: 1.2;
     letter-spacing: 0.03em;
+    color: #212121;
 }
 .activity{
-    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: #757575;
@@ -157,8 +152,8 @@
     padding: 0px;
 }
 .specific-address{
+    font-style: normal;
     color: #FFFFFF;
-    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
@@ -168,7 +163,6 @@
 .footer-contact{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
-    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
@@ -191,17 +185,15 @@
 }
 .services_list{
     margin-right: 8px;
-    
 }
 .choice-services1, .choice-services2,.choice-services3,.choice-services4,.choice-services5 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.6;
     text-align: center;
     letter-spacing: 0.03em;
+    color: #212121;
     height: 38px;
-    font-size: 16px;
     border-radius: 4px;
     border: 0px;
     background-color: #F5F4FA;
@@ -246,7 +238,7 @@
     list-style-type: none;
 }
 .h-filter{
-    font-weight: 700;
+    font-weight: 500;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
